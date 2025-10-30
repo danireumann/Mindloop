@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Entry } from "../types/entry";
+import type { Entry } from "../types/entry";
 import { formatDate, moodToEmoji } from "../utils/format";
 
 export function EntryListItem({ entry }: { entry: Entry }) {
